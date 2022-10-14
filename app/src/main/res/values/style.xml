@@ -1,0 +1,59 @@
+< ресурсы >
+
+    <!-- Базовая тема приложения. -->
+    < style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Настройте свою тему здесь. -->
+        < item name="colorPrimary" >@color/colorPrimary</ item >
+        < item name="colorPrimaryDark" >@color/colorPrimaryDark</ item >
+        < item name="colorAccent" >@color/colorAccent</ item >
+    </ style >
+
+    <!-- ActionButtonStyle для клавиш "CLEAR" и "/". -->
+    <
+        item name="android:layout_width" >0dp</ item >
+    < item name="android:layout_height" >match_parent</ item >
+    < item name="android:layout_weight" >1</ item >
+    < item name="android :background" >@color/actionButton</ item >
+    < item name = "android:textSize" >21sp</ item >
+    < item name="android:textColor" >@android:color/white</ item >
+    < item name ="андроид:гравитация">по центру</ элемент >
+    <item name="android:layout_margin" >0.5dp</ item >
+
+</ style >
+
+    <!-- NumberButtonStyle для клавиш "1, 2, 3, 4, 5, 6, 7, 8, 9, 0". -->
+< style name="NumberButtonStyle" >
+< item name="android:layout_width" >0dp</ item >
+< item name="android:layout_height" >match_parent</ item >
+< item name="android:layout_weight" >1</ item >
+< item name="android:background" >@color/numberActionButton<
+    item >
+    < item name="android:textColor" >@android:color/white</ item >
+    < item name="android:gravity" >в центре</ item >
+    < item name="android:layout_margin" >0,5dp< / элемент >
+    </ стиль ><!-- EqualButtonStyle для ключа "=". -->
+    < style name="EqualButtonStyle" >
+        < item name="android:layout_width" >0dp</ item >
+        < item name="android:layout_height" >match_parent</ item >
+        < item name="android:layout_weight" >1</ item >
+        < item name="android:background" >@color/equalButton</ item >
+        < item name = "android:textSize" >21sp</ item >
+        < item name="
+item name="android:gravity" >center</ item >
+    < item name="android:layout_margin" >0.5dp</ item >
+</ style >
+
+<!-- NumberActionButton2 для клавиш "*", "-", " +". -->
+        < style name="NumberActionButton2" >
+            < item name="android:layout_width" >0dp</ item >
+            < item name="android:layout_height" >match_parent</ item >
+            < item name="android:layout_weight" >1<
+                item >
+                < item name ="android:textSize" >21sp</ item >
+                < item name="android:textColor" >@android:color/white</ item >
+                < item name="android:gravity" >center</ item >
+                < item name="android:layout_
+</resources>
+                    </ style >
+
+</ resources >
